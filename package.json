@@ -1,0 +1,19 @@
+{
+  "name": "node.js-template",
+  "version": "1.0.0",
+  "description": "Node.js 기본 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HBSPS/Node.js-Template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HBSPS/Node.js-Template/issues"
+  },
+  "homepage": "https://github.com/HBSPS/Node.js-Template#readme"
+}

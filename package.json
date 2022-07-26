@@ -11,9 +11,12 @@
     "url": "git+https://github.com/HBSPS/Node.js-Template.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/HBSPS/Node.js-Template/issues"
   },
-  "homepage": "https://github.com/HBSPS/Node.js-Template#readme"
+  "homepage": "https://github.com/HBSPS/Node.js-Template#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

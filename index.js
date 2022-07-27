@@ -1,6 +1,9 @@
 import express from "express";
+import dotenv from "dotenv";
 
-const PORT = 3000;
+dotenv.config();
+
+const PORT = process.env.SERVER_PORT;
 
 const handleListening = () => {
     console.clear();

@@ -1,5 +1,6 @@
-import express from "express";
 import dotenv from "dotenv";
+
+import app from "./server";
 
 dotenv.config();
 
@@ -7,7 +8,9 @@ const PORT = process.env.SERVER_PORT;
 
 const handleListening = () => {
     console.clear();
-    console.log(`✅ Server listening on port ${PORT}`);
+    console.log(`✅ Server listening on port ${PORT}\n`);
+    console.log(`✅ Server URL`);
+    console.log("\x1b[34m%s\x1b[0m", `[http://localhost:${PORT}]\n`);
 };
 
-express().listen(PORT, handleListening);
+app.listen(PORT, handleListening);

@@ -1,6 +1,5 @@
 import express from "express";
 import morgan from "morgan";
-import pool from "./database";
 
 const app = express();
 const logger = morgan("dev"); // 개발환경: dev || 배포환경: combined
